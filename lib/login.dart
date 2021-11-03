@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboarding_screen/meal.dart';
 
 class loginPage extends StatelessWidget {
   @override
@@ -22,6 +23,9 @@ class loginPage extends StatelessWidget {
         ),
       ),
       body: Container(
+        // decoration: BoxDecoration(
+        // image: DecorationImage(image: AssetImage('lib/resources/backk.png')),
+        // ),
         height: MediaQuery.of(context).size.height,
         width: double.infinity,
         child: Column(
@@ -34,7 +38,7 @@ class loginPage extends StatelessWidget {
                 Column(
                   children: <Widget>[
                     Text(
-                      "Login-edited now by ahmad",
+                      "Login",
                       style:
                           TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                     ),
@@ -63,15 +67,20 @@ class loginPage extends StatelessWidget {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
                         border: Border(
-                          bottom: BorderSide(color: Colors.black),
-                          top: BorderSide(color: Colors.black),
-                          left: BorderSide(color: Colors.black),
-                          right: BorderSide(color: Colors.black),
+                          bottom: BorderSide(color: Colors.black87),
+                          top: BorderSide(color: Colors.black87),
+                          left: BorderSide(color: Colors.black87),
+                          right: BorderSide(color: Colors.black87),
                         )),
                     child: MaterialButton(
                       minWidth: double.infinity,
                       height: 60,
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => MyHomePage()));
+                      },
                       color: Color(0xff689f38),
                       elevation: 0,
                       shape: RoundedRectangleBorder(
@@ -106,8 +115,7 @@ class loginPage extends StatelessWidget {
                   height: 200,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                        image: NetworkImage(
-                            'https://koshelevfoto.ru/post/%D8%AA%D9%85%D8%A7%D8%B1%D9%8A%D9%86+%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A9+%D9%83%D8%B1%D8%AA%D9%88%D9%86%D9%8A%D8%A9'),
+                        image: AssetImage("lib/resources/back.png"),
                         fit: BoxFit.fitHeight),
                   ),
                 )

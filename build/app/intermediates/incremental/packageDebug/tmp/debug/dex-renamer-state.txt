@@ -1,4 +1,4 @@
-#Tue Oct 19 22:10:29 EEST 2021
-base.0=C\:\\Users\\honey\\Desktop\\GP1\\onboarding_screen-main\\onboarding_screen-main\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
+#Tue Nov 02 23:00:02 EET 2021
+base.0=C\:\\Users\\dzeda\\fitness-app-project\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
+renamed.0=classes.dex
