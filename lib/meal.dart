@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:onboarding_screen/NewRecipe.dart';
+import 'package:onboarding_screen/new_recipe.dart';
 
-import 'NewRecipe.dart';
+import 'new_recipe.dart';
 
 class MyHomePage extends StatefulWidget {
   @override

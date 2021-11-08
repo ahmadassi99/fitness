@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboarding_screen/information.dart';
 import 'package:onboarding_screen/scroll.dart';
 
 void main() {
@@ -10,7 +11,7 @@ class BoardingScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BoardingPage(),
+      home: Test(),
     );
   }
 }
